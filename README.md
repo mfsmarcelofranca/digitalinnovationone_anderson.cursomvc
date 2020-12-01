@@ -42,3 +42,16 @@ Projeto da aula: Desenvolvimento de aplicações com .NET - Digital Innovation O
 ###### 4- O contexto : -dc nomeContext
 ###### 5- A pasta usada para o Controlador: --relativeFolderPath Controllers
 ###### 6- O leiaute usado para criar o arquivo: --useDefaultLayout
+
+### Adicionando referencia a outro projeto:
+###### dotnet add reference ../CursoMVC/CursoMVC.csproj
+
+### API REST
+##### dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+##### dotnet add package Microsoft.EntityFrameworkCore.Design
+##### dotnet tool install -g dotnet-aspnet-codegenerator
+##### dotnet tool update -g dotnet-aspnet-codegenerator
+
+### criar controller
+##### dotnet aspnet-codegenerator controller -name CategoriasController -async -api -m Categoria -dc Context -outDir Controllers
+##### dotnet aspnet-codegenerator controller -name ProdutosController -async -api -m Produto -dc Context -outDir Controllers
