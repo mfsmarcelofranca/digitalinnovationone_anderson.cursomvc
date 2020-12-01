@@ -5,7 +5,7 @@ Projeto da aula: Desenvolvimento de aplicações com .NET - Digital Innovation O
 ### Para acompanhar a aula foram utilizados:
 ###### O Visual Code e Comandos dotnet CLI
 ###### O MySQL - Wampserver
-### Comando utilizados dotnet CLI
+### Comandos utilizados dotnet CLI
 
 #### criar projeto:
 ###### dotnet new mvc -n nomeProjeto
